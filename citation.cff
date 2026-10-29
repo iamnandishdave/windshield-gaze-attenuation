@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Code and synthetic data for: Gaze-Aware Windshield Attenuation Using Dual-Eye Geometry and Confidence-Gated Takagi–Sugeno Control: Analytical and Synthetic Evaluation"
+message: "If you use this software, please cite it as below."
+type: software
+license: MIT
+authors:
+  - family-names: Dave
+    given-names: Nandish
+    orcid: "https://orcid.org/0009-0006-6314-816X"
+  - family-names: Pathak
+    given-names: Nimisha
+    orcid: "https://orcid.org/0000-0003-4664-1340"
