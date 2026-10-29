@@ -6,7 +6,7 @@
 ¹ Independent Researcher, San Jose, CA, USA
 ² Department of Applied Mathematics, The Maharaja Sayajirao University of Baroda, Vadodara, Gujarat, India
 **Corresponding author:** Nandish Dave — nandish747@gmail.com
-**Archived version (DOI):** DOI: 10.5281/zenodo.23757196
+**Archived version (DOI):** 10.5281/zenodo.23757196
 
 ---
 
