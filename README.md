@@ -6,7 +6,7 @@
 ¹ Independent Researcher, San Jose, CA, USA
 ² Department of Applied Mathematics, The Maharaja Sayajirao University of Baroda, Vadodara, Gujarat, India
 **Corresponding author:** Nandish Dave — nandish747@gmail.com
-**Archived version (DOI):** https://doi.org/10.5281/zenodo.XXXXXXX
+**Archived version (DOI):** DOI: 10.5281/zenodo.23757196
 
 ---
 
@@ -155,4 +155,4 @@ Code is released under the MIT Licence (see `LICENSE`).
 
 If you use this code, please cite the article and this archive:
 
-> Dave, N., Pathak, N.: Code and synthetic data for: Gaze-Aware Windshield Attenuation Using Dual-Eye Geometry and Confidence-Gated Takagi–Sugeno Control. Zenodo (2026). https://doi.org/10.5281/zenodo.XXXXXXX
+> Dave, N., Pathak, N.: Code and synthetic data for: Gaze-Aware Windshield Attenuation Using Dual-Eye Geometry and Confidence-Gated Takagi–Sugeno Control. Zenodo (2026). DOI: 10.5281/zenodo.23757196
