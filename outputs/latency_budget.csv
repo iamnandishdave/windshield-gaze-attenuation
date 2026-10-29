@@ -1,0 +1,8 @@
+component,nominal,stressed
+Camera exposure,18.500,32.000
+Image transfer,12.000,25.000
+Gaze estimation,22.400,45.000
+Glare/scene estimation,8.600,15.000
+Control and filtering,16.800,25.300
+Glazing response,36.000,45.000
+Total,114.300,187.300

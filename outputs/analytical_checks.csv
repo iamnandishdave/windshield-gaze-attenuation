@@ -1,0 +1,21 @@
+quantity,value,unit
+"Single circle area, r=0.05 m",0.007853982,m^2
+"Dual-eye union area, r=0.05 m, s=0.065 m",0.013861690,m^2
+"Dual-eye union fraction, r=0.05 m",1.237650892,%
+"Illustrative glass power at 3 W/m^2, r=0.05 m",0.041585070,W
+"Single circle area, r=0.06 m",0.011309734,m^2
+"Dual-eye union area, r=0.06 m, s=0.065 m",0.018709461,m^2
+"Dual-eye union fraction, r=0.06 m",1.670487628,%
+"Illustrative glass power at 3 W/m^2, r=0.06 m",0.056128384,W
+"Single circle area, r=0.07 m",0.015393804,m^2
+"Dual-eye union area, r=0.07 m, s=0.065 m",0.024155387,m^2
+"Dual-eye union fraction, r=0.07 m",2.156730981,%
+"Illustrative glass power at 3 W/m^2, r=0.07 m",0.072466161,W
+"Containment, sigma=0.02 m, margin=0 sigma",95.606306638,%
+"Containment, sigma=0.02 m, margin=1 sigma",99.781250888,%
+"Containment, sigma=0.02 m, margin=2 sigma",99.995993470,%
+"Containment, sigma=0.02 m, margin=3 sigma",99.999973004,%
+"Containment, sigma=0.03 m, margin=0 sigma",75.064779122,%
+"Containment, sigma=0.03 m, margin=1 sigma",97.143449922,%
+"Containment, sigma=0.03 m, margin=2 sigma",99.879614001,%
+"Containment, sigma=0.03 m, margin=3 sigma",99.998133553,%

@@ -1,0 +1,183 @@
+{
+  "controller_summary": [
+    {
+      "controller": "No dimming",
+      "mean_warranted_attenuation": 0.0,
+      "false_attenuation_energy": 0.0,
+      "warranted_error": 1.0,
+      "switch_count": 0,
+      "mean_active_union_area_m2": 0.0,
+      "p95_active_union_area_m2": 0.0,
+      "time_average_active_area_m2": 0.0,
+      "illustrative_glass_power_w": 0.0,
+      "active_frames": 0
+    },
+    {
+      "controller": "Fixed threshold",
+      "mean_warranted_attenuation": 0.928,
+      "false_attenuation_energy": 0.22457142857142856,
+      "warranted_error": 0.072,
+      "switch_count": 16,
+      "mean_active_union_area_m2": 0.015285999742289377,
+      "p95_active_union_area_m2": 0.01952747700833927,
+      "time_average_active_area_m2": 0.007913052533258467,
+      "illustrative_glass_power_w": 0.0237391575997754,
+      "active_frames": 1553
+    },
+    {
+      "controller": "Binary confidence-gated",
+      "mean_warranted_attenuation": 0.7664,
+      "false_attenuation_energy": 0.2022857142857143,
+      "warranted_error": 0.2336,
+      "switch_count": 24,
+      "mean_active_union_area_m2": 0.01454742510869962,
+      "p95_active_union_area_m2": 0.014841651190500255,
+      "time_average_active_area_m2": 0.006362073914204634,
+      "illustrative_glass_power_w": 0.0190862217426139,
+      "active_frames": 1312
+    },
+    {
+      "controller": "Alignment-and-confidence-gated threshold",
+      "mean_warranted_attenuation": 0.7656,
+      "false_attenuation_energy": 0.0,
+      "warranted_error": 0.2344,
+      "switch_count": 16,
+      "mean_active_union_area_m2": 0.014547539534316672,
+      "p95_active_union_area_m2": 0.014848914511856232,
+      "time_average_active_area_m2": 0.004640665111447018,
+      "illustrative_glass_power_w": 0.013921995334341054,
+      "active_frames": 957
+    },
+    {
+      "controller": "Fuzzy low-pass + hysteresis",
+      "mean_warranted_attenuation": 0.751493119772128,
+      "false_attenuation_energy": 0.0019824764119303075,
+      "warranted_error": 0.24850688022787198,
+      "switch_count": 16,
+      "mean_active_union_area_m2": 0.014806031312473425,
+      "p95_active_union_area_m2": 0.018209173604535788,
+      "time_average_active_area_m2": 0.00535978333511538,
+      "illustrative_glass_power_w": 0.01607935000534614,
+      "active_frames": 1086
+    }
+  ],
+  "gate_sensitivity": [
+    {
+      "controller": "Fuzzy low-pass + hysteresis",
+      "mean_warranted_attenuation": 0.7641156999261343,
+      "false_attenuation_energy": 0.0019824765451429836,
+      "warranted_error": 0.23588430007386568,
+      "switch_count": 16,
+      "mean_active_union_area_m2": 0.01486356988317598,
+      "p95_active_union_area_m2": 0.019084670896302097,
+      "time_average_active_area_m2": 0.005459884670419976,
+      "illustrative_glass_power_w": 0.01637965401125993,
+      "active_frames": 1102,
+      "confidence_gate": 0.5
+    },
+    {
+      "controller": "Fuzzy low-pass + hysteresis",
+      "mean_warranted_attenuation": 0.7582993253145865,
+      "false_attenuation_energy": 0.0019824764817726,
+      "warranted_error": 0.24170067468541348,
+      "switch_count": 16,
+      "mean_active_union_area_m2": 0.014838513292343734,
+      "p95_active_union_area_m2": 0.018930522452937387,
+      "time_average_active_area_m2": 0.005416057351705463,
+      "illustrative_glass_power_w": 0.01624817205511639,
+      "active_frames": 1095,
+      "confidence_gate": 0.55
+    },
+    {
+      "controller": "Fuzzy low-pass + hysteresis",
+      "mean_warranted_attenuation": 0.7543849188351139,
+      "false_attenuation_energy": 0.0019824764204653756,
+      "warranted_error": 0.24561508116488595,
+      "switch_count": 16,
+      "mean_active_union_area_m2": 0.014821457136484632,
+      "p95_active_union_area_m2": 0.01855826414308526,
+      "time_average_active_area_m2": 0.005385129426256083,
+      "illustrative_glass_power_w": 0.01615538827876825,
+      "active_frames": 1090,
+      "confidence_gate": 0.6
+    },
+    {
+      "controller": "Fuzzy low-pass + hysteresis",
+      "mean_warranted_attenuation": 0.751493119772128,
+      "false_attenuation_energy": 0.0019824764119303075,
+      "warranted_error": 0.24850688022787198,
+      "switch_count": 16,
+      "mean_active_union_area_m2": 0.014806031312473425,
+      "p95_active_union_area_m2": 0.018209173604535788,
+      "time_average_active_area_m2": 0.00535978333511538,
+      "illustrative_glass_power_w": 0.01607935000534614,
+      "active_frames": 1086,
+      "confidence_gate": 0.65
+    },
+    {
+      "controller": "Fuzzy low-pass + hysteresis",
+      "mean_warranted_attenuation": 0.7474266196908307,
+      "false_attenuation_energy": 0.0019824763278164445,
+      "warranted_error": 0.2525733803091693,
+      "switch_count": 16,
+      "mean_active_union_area_m2": 0.014793665314194276,
+      "p95_active_union_area_m2": 0.01817841752608121,
+      "time_average_active_area_m2": 0.005330650734881337,
+      "illustrative_glass_power_w": 0.015991952204644014,
+      "active_frames": 1081,
+      "confidence_gate": 0.7
+    },
+    {
+      "controller": "Fuzzy low-pass + hysteresis",
+      "mean_warranted_attenuation": 0.7444219564490557,
+      "false_attenuation_energy": 0.0019824762494584786,
+      "warranted_error": 0.2555780435509442,
+      "switch_count": 16,
+      "mean_active_union_area_m2": 0.014781989510462777,
+      "p95_active_union_area_m2": 0.01787515415298888,
+      "time_average_active_area_m2": 0.005306734234256136,
+      "illustrative_glass_power_w": 0.015920202702768407,
+      "active_frames": 1077,
+      "confidence_gate": 0.75
+    },
+    {
+      "controller": "Fuzzy low-pass + hysteresis",
+      "mean_warranted_attenuation": 0.7416425069426771,
+      "false_attenuation_energy": 0.0019824762242917054,
+      "warranted_error": 0.2583574930573229,
+      "switch_count": 16,
+      "mean_active_union_area_m2": 0.014775232426672173,
+      "p95_active_union_area_m2": 0.017677914911694625,
+      "time_average_active_area_m2": 0.005289533208748638,
+      "illustrative_glass_power_w": 0.015868599626245913,
+      "active_frames": 1074,
+      "confidence_gate": 0.8
+    },
+    {
+      "controller": "Fuzzy low-pass + hysteresis",
+      "mean_warranted_attenuation": 0.7355704203777909,
+      "false_attenuation_energy": 0.0019824761128126867,
+      "warranted_error": 0.2644295796222092,
+      "switch_count": 16,
+      "mean_active_union_area_m2": 0.014755335280399153,
+      "p95_active_union_area_m2": 0.016797311805282662,
+      "time_average_active_area_m2": 0.005247980914728632,
+      "illustrative_glass_power_w": 0.015743942744185897,
+      "active_frames": 1067,
+      "confidence_gate": 0.85
+    },
+    {
+      "controller": "Fuzzy low-pass + hysteresis",
+      "mean_warranted_attenuation": 0.6904811898216553,
+      "false_attenuation_energy": 0.0018557018388057347,
+      "warranted_error": 0.3095188101783447,
+      "switch_count": 16,
+      "mean_active_union_area_m2": 0.014740600213670445,
+      "p95_active_union_area_m2": 0.016610163136532484,
+      "time_average_active_area_m2": 0.005188691275211998,
+      "illustrative_glass_power_w": 0.015566073825635993,
+      "active_frames": 1056,
+      "confidence_gate": 0.9
+    }
+  ]
+}
