@@ -12,6 +12,8 @@ Simulation code, parameters, seeds, results, and figures supporting:
 ² Department of Applied Mathematics, The Maharaja Sayajirao University of Baroda, Vadodara, Gujarat, India
 **Corresponding author:** Nandish Dave — nandish747@gmail.com
 
+**Archived version (Zenodo, v2.0.0):** https://doi.org/10.5281/zenodo.24333259
+
 This is a **controller-in-the-loop simulation study**. Nothing in this
 archive constitutes real-world, hardware, human-subject, or regulatory
 validation.
@@ -103,3 +105,11 @@ python3 validate.py
 
 Verifies the required files and figure pairs exist, CSV row/column counts match
 the packaged runs, and `seed_list.json` matches `parameters.json`.
+
+## How to cite
+
+If you use this code, please cite the article and this archive:
+
+Dave, N., Pathak, N.: Code and synthetic data for: A Gaze-Aware Localized
+Windshield Attenuation System for Driver Glare Mitigation (v2.0.0). Zenodo
+(2026). https://doi.org/10.5281/zenodo.24333259
