@@ -8,7 +8,6 @@
   "radius_model": "r = clip(0.05 + 0.02 * (1 - C), 0.05, 0.07) metres",
   "glass_power_density_w_m2": 3.0,
   "fixed_glare_threshold": 0.55,
-  "alignment_threshold": 0.55,
   "confidence_gate": 0.65,
   "gate_sensitivity_values": [
     0.5,
@@ -111,9 +110,9 @@
       ],
       "medium": [
         0.25,
-        0.55,
-        0.55,
-        0.8
+        0.5,
+        0.75,
+        0.75
       ],
       "high": [
         0.55,
@@ -131,8 +130,8 @@
       ],
       "medium": [
         0.2,
-        0.45,
-        0.55,
+        0.5,
+        0.8,
         0.8
       ],
       "high": [
@@ -151,8 +150,8 @@
       ],
       "medium": [
         0.35,
-        0.6,
         0.65,
+        0.85,
         0.85
       ],
       "high": [
@@ -189,5 +188,96 @@
       25.3,
       45.0
     ]
+  },
+  "eye_positions_m": {
+    "right_eye": [
+      0.0325,
+      0.0,
+      0.0
+    ],
+    "left_eye": [
+      -0.0325,
+      0.0,
+      0.0
+    ],
+    "note": "world frame: x lateral (right +), y up, z forward; eyes on the driver baseline at z=0, separation 0.065 m"
+  },
+  "zone_centre_rule": "zone centre = eye + ((D_W - eye_z)/s_z) * s, the eye-to-glare-source ray intercept with the windshield plane z = D_W = 0.75 m; gaze direction enters only the alignment term A",
+  "warranted_ground_truth": {
+    "glare_threshold": 0.55,
+    "alignment_threshold": 0.5,
+    "note": "frame is warranted iff g_true >= 0.55 AND a_true >= 0.50; sensitivity grid G* in [0.45..0.65], A* in [0.40..0.60], plus graded w = g_true * a_true"
+  },
+  "containment_error_model": {
+    "static_sigma_per_eye_m": 0.015,
+    "common_lateral_bias_m": [
+      0.01,
+      0.02,
+      0.03
+    ],
+    "anisotropic_sigma_m": [
+      [
+        0.02,
+        0.008
+      ],
+      [
+        0.02,
+        0.008
+      ]
+    ],
+    "correlated_rho": 0.6,
+    "head_pose_common_mode_rho": 0.5,
+    "vehicle_yaw_rate_deg_s": {
+      "ordinary": [
+        1,
+        8
+      ],
+      "aggressive": [
+        10,
+        40
+      ]
+    },
+    "eye_translation_m_s": [
+      0.1,
+      0.3
+    ],
+    "latency_budgets_ms": [
+      114.3,
+      187.3
+    ],
+    "radii_m": [
+      0.0514,
+      0.06
+    ],
+    "margin_grid_m": "0 to 0.12 m in 0.0005 m steps",
+    "note": "Vehicle yaw displacement = D_W*tan(psi_dot*T). Ordinary yaw 1\u20138 deg/s is consistent with v=15\u201325 m/s and R=180\u2013900 m (psi_dot=v/R). Aggressive yaw 10\u201340 deg/s and eye translation 0.1/0.3 m/s are illustrative stress tests.",
+    "ordinary_motion_basis": {
+      "vehicle_speed_m_s": [
+        15,
+        25
+      ],
+      "curve_radius_m": [
+        180,
+        900
+      ],
+      "yaw_rate_relation": "yaw_rate_deg_s = (vehicle_speed_m_s / curve_radius_m) * 180 / pi",
+      "manuscript_ordinary_yaw_rate_deg_s": [
+        1,
+        8
+      ],
+      "note": "The manuscript reports ordinary vehicle yaw rates of approximately 1\u20138 deg/s, associated with speeds of 15\u201325 m/s and curve radii of approximately 180\u2013900 m. The containment Monte Carlo samples the stated 1\u20138 deg/s range directly; curve radii are contextual kinematic bounds, not an additional randomized simulation input."
+    },
+    "vehicle_speed_m_s": [
+      15,
+      25
+    ],
+    "ordinary_curve_radius_m": [
+      180,
+      900
+    ],
+    "containment_random_seed": 99,
+    "containment_samples_per_case": 200000,
+    "zone_containment_definition": "For each draw, predicted zone centres are nominal eye-to-source intercepts displaced by tracking error and common calibration bias; true intercepts remain fixed for static cases. For latency cases, predicted centres carry static tracking noise while true intercepts move laterally by the yaw or eye-translation displacement. Both true eye intercepts must lie within the union of the two predicted circular zones.",
+    "eye_translation_direction": "lateral (left/right sign randomized), magnitude v*T"
   }
 }

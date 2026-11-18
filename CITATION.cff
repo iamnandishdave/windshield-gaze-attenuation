@@ -1,12 +1,14 @@
 cff-version: 1.2.0
-title: "Code and synthetic data for: Gaze-Aware Windshield Attenuation Using Dual-Eye Geometry and Confidence-Gated Takagi–Sugeno Control: Analytical and Synthetic Evaluation"
-message: "If you use this software, please cite it as below."
-type: software
+message: "If you use this code, please cite the article and this archive."
+title: "Code and synthetic data for: A Gaze-Aware Localized Windshield Attenuation System for Driver Glare Mitigation"
+version: 2.0.0
 license: MIT
 authors:
   - family-names: Dave
     given-names: Nandish
     orcid: "https://orcid.org/0009-0006-6314-816X"
+    affiliation: "Independent Researcher, San Jose, CA, USA"
   - family-names: Pathak
     given-names: Nimisha
     orcid: "https://orcid.org/0000-0003-4664-1340"
+    affiliation: "Department of Applied Mathematics, The Maharaja Sayajirao University of Baroda"

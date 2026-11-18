@@ -1,0 +1,13 @@
+quantity,value
+Sensing subtotal nominal (ms),39.100000000
+Computation subtotal nominal (ms),39.200000000
+Glazing response nominal (ms),36.000000000
+Total nominal (ms),114.300000000
+Sensing subtotal stressed (ms),72.000000000
+Computation subtotal stressed (ms),70.300000000
+Glazing response stressed (ms),45.000000000
+Total stressed (ms),187.300000000
+Filter 90% rise time tau=0.12 s (ms),276.310211159
+Filter 63% rise time tau=0.12 s (ms),120.000000000
+Filter 90% rise time tau=0.05 s (ms),115.129254650
+Filter 90% rise time tau=1.0 s (ms),2302.585092994

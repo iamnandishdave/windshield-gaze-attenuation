@@ -1,4 +1,4 @@
-rule,G,A,C,i,j,k,singleton_z
+rule,G,A,C,i,j,k,z
 1,low,low,low,0,0,0,0.0
 2,low,low,medium,0,0,1,0.0
 3,low,low,high,0,0,2,0.0
